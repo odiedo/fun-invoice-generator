@@ -1,0 +1,16 @@
+{
+  "name": "odiedo/fun-invoice-generator",
+  "description": "invoice generator using dompdf",
+  "require": {
+    "php": "^8.0",
+    "some/dependency": "^1.0"
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "autoload": {
+    "psr-4": {
+      "YourNamespace\\": "src/"
+    }
+  }
+}
